@@ -12,196 +12,305 @@
 </head>
 <body>
     <div class="grid-container">
+        <div class="sidebar">
+            <div class="logo">
+                <svg class="icon">
+                    <use href="images/icons.svg#icon-logo"></use>
+                </svg>
+                <h2 class="logo-text">Dashboard</h2>
+            </div>
+            <div class="sidebar-menu">
+                <ul>
+                    <li>
+                        <div class="nav-option">
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-home"></use>
+                            </svg>
+                            <a href="">Home</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav-option">
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-profile"></use>
+                            </svg>
+                            <a href="">Profile</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav-option">
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-message"></use>
+                            </svg>
+                            <a href="">Messages</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav-option">
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-history"></use>
+                            </svg>
+                            <a href="">History</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav-option">
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-task"></use>
+                            </svg>
+                            <a href="">Task</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav-option">
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-community"></use>
+                            </svg>
+                            <a href="">Community</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebar-options">
+                <ul>
+                    <li>
+                        <div class="nav-option">
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-settings"></use>
+                            </svg>
+                            <a href="">Settings</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav-option">
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-support"></use>
+                            </svg>
+                            <a href="">Support</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav-option">
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-privacy"></use>
+                            </svg>
+                            <a href="">Privacy</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
         <header class="header">
-            <div class="search">
+            <div class="search-bar">
                 <label for="search">
-                    <svg class="icon"><use href="images/icons.svg#icon-search"></use></svg>
+                    <svg class="icon">
+                        <use href="images/icons.svg#icon-search"></use>
+                    </svg>
                 </label>
                 <input type="search" name="search" id="search">
             </div>
-            <div class="profile">
-                <svg class="icon"><use href="images/icons.svg#icon-notification"></use></svg>
-                <img class="profile-pic" src="images/profile-pic/capybara.jpg" alt="A photo of a capybara" class="profile-pic">
-                <p class="profile-name">Tincho Carpincho</p class="profile-name">
+            <div class="user-profile">
+                <svg class="icon">
+                    <use href="images/icons.svg#icon-notification"></use>
+                </svg>
+                <img class="profile-pic" src="images/profile-pic/capybara.jpg" alt="Profile pic">
+                <h3 class="user-name">Damian Bruno</h3>
             </div>
-            <div class="header-msg">
-                <img class="profile-pic" src="images/profile-pic/capybara.jpg" alt="A photo of a capybara">
-                <div class="greetings">
-                    <p>Hi there,</p>
-                    <h2>Tincho Carpincho (@capycapy)</h2>
-                </div>
+            <div class="greetings">
+                <img class="profile-pic" src="images/profile-pic/capybara.jpg" alt="Profile pic">
+                <h2 class="user-name">Damian Bruno (@dbruno)<span></span></h2>
             </div>
-            <div class="header-btn">
-                <button type="button">New</button>
-                <button type="button">Upload</button>
-                <button type="button">Upload</button>
+            <div class="header-buttons">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
             </div>
         </header>
-        <aside class="sidebar">
-            <div class="logo">
-                <svg class="icon"><use href="images/icons.svg#icon-logo"></use></svg>
-                <h1 class="logo-title">Dashboard</h1>
-            </div>
-            <nav class="nav">
-                <ul>
-                    <li>
-                        <svg class="icon"><use href="images/icons.svg#icon-home"></use></svg>
-                        <a href="">Home</a>
-                    </li>
-                    <li>
-                        <svg class="icon"><use href="images/icons.svg#icon-message"></use></svg>
-                        <a href="">Messages</a>
-                    </li>
-                    <li>
-                        <svg class="icon"><use href="images/icons.svg#icon-history"></use></svg>
-                        <a href="">History</a>
-                    </li>
-                    <li>
-                        <svg class="icon"><use href="images/icons.svg#icon-task"></use></svg>
-                        <a href="">Task</a>
-                    </li>
-                    <li>
-                        <svg class="icon"><use href="images/icons.svg#icon-community"></use></svg>
-                        <a href="">Community</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="options">
-                <ul>
-                    <li>
-                        <svg class="icon"><use href="images/icons.svg#icon-settings"></use></svg>
-                        <a href="">Settings</a>
-                    </li>
-                    <li>
-                        <svg class="icon"><use href="images/icons.svg#icon-support"></use></svg>
-                        <a href="">Support</a>
-                    </li>
-                    <li>
-                        <svg class="icon"><use href="images/icons.svg#icon-privacy"></use></svg>
-                        <a href="">Privacy</a>
-                    </li>
-                </ul>
-            </div>
-        </aside>
+
         <main class="main">
-            <section class="projects">
-                <h2>Your projects</h2>
+            <div class="projects">
+                <h2 class="projects-title">Projects</h2>
                 <div class="card-container">
                     <div class="card">
                         <h3 class="card-title">Super Cool Project</h3>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quo quibusdam aperiam fugit.</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quo
+                            quibusdam aperiam fugit.</p>
                         <div class="card-icons">
-                            <svg class="icon"><use href="images/icons.svg#icon-fav"></use></svg>
-                            <svg class="icon"><use href="images/icons.svg#icon-seen"></use></svg>
-                            <svg class="icon"><use href="images/icons.svg#icon-share"></use></svg>
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-fav"></use>
+                            </svg>
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-seen"></use>
+                            </svg>
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-share"></use>
+                            </svg>
                         </div>
                     </div>
                     <div class="card">
                         <h3 class="card-title">Super Cool Project</h3>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quo quibusdam aperiam fugit.</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quo
+                            quibusdam aperiam fugit.</p>
                         <div class="card-icons">
-                            <svg class="icon"><use href="images/icons.svg#icon-fav"></use></svg>
-                            <svg class="icon"><use href="images/icons.svg#icon-seen"></use></svg>
-                            <svg class="icon"><use href="images/icons.svg#icon-share"></use></svg>
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-fav"></use>
+                            </svg>
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-seen"></use>
+                            </svg>
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-share"></use>
+                            </svg>
                         </div>
                     </div>
                     <div class="card">
                         <h3 class="card-title">Super Cool Project</h3>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quo quibusdam aperiam fugit.</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quo
+                            quibusdam aperiam fugit.</p>
                         <div class="card-icons">
-                            <svg class="icon"><use href="images/icons.svg#icon-fav"></use></svg>
-                            <svg class="icon"><use href="images/icons.svg#icon-seen"></use></svg>
-                            <svg class="icon"><use href="images/icons.svg#icon-share"></use></svg>
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-fav"></use>
+                            </svg>
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-seen"></use>
+                            </svg>
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-share"></use>
+                            </svg>
                         </div>
                     </div>
                     <div class="card">
                         <h3 class="card-title">Super Cool Project</h3>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quo quibusdam aperiam fugit.</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quo
+                            quibusdam aperiam fugit.</p>
                         <div class="card-icons">
-                            <svg class="icon"><use href="images/icons.svg#icon-fav"></use></svg>
-                            <svg class="icon"><use href="images/icons.svg#icon-seen"></use></svg>
-                            <svg class="icon"><use href="images/icons.svg#icon-share"></use></svg>
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-fav"></use>
+                            </svg>
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-seen"></use>
+                            </svg>
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-share"></use>
+                            </svg>
                         </div>
                     </div>
                     <div class="card">
                         <h3 class="card-title">Super Cool Project</h3>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quo quibusdam aperiam fugit.</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quo
+                            quibusdam aperiam fugit.</p>
                         <div class="card-icons">
-                            <svg class="icon"><use href="images/icons.svg#icon-fav"></use></svg>
-                            <svg class="icon"><use href="images/icons.svg#icon-seen"></use></svg>
-                            <svg class="icon"><use href="images/icons.svg#icon-share"></use></svg>
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-fav"></use>
+                            </svg>
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-seen"></use>
+                            </svg>
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-share"></use>
+                            </svg>
                         </div>
                     </div>
                     <div class="card">
                         <h3 class="card-title">Super Cool Project</h3>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quo quibusdam aperiam fugit.</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quo
+                            quibusdam aperiam fugit.</p>
                         <div class="card-icons">
-                            <svg class="icon"><use href="images/icons.svg#icon-fav"></use></svg>
-                            <svg class="icon"><use href="images/icons.svg#icon-seen"></use></svg>
-                            <svg class="icon"><use href="images/icons.svg#icon-share"></use></svg>
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-fav"></use>
+                            </svg>
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-seen"></use>
+                            </svg>
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-share"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-title">Super Cool Project</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quo
+                            quibusdam aperiam fugit.</p>
+                        <div class="card-icons">
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-fav"></use>
+                            </svg>
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-seen"></use>
+                            </svg>
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-share"></use>
+                            </svg>
                         </div>
                     </div>
                 </div>
-            </section>
-            <aside class="announcements">
-                <h2 class="announcements-title">Announcements</h2>
-                <div class="notices">
-                    <div class="notice">
-                        <h3>Site Maintenance</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam perferendis asperiores, modi voluptas voluptatibus.</p>
-                    </div>
-                    <div class="notice">
-                        <h3>Site Maintenance</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam perferendis asperiores, modi voluptas voluptatibus.</p>
-                    </div>
-                    <div class="notice">
-                        <h3>Site Maintenance</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam perferendis asperiores, modi voluptas voluptatibus.</p>
-                    </div>
-                </div>
-            </aside>
-            <aside class="trending">
-                <h2 class="trending-title">Trending</h2>
-                <div class="trending-users">
-                    <div class="user">
-                        <div class="user-pic">
-                            <img src="images/profile-pic/koala.jpg" alt="Profile photo">
+            </div>
+            <div class="aside">
+                <div class="announcements">
+                    <h2 class="announcements-title">Announcements</h2>
+                    <div class="notices">
+                        <div class="notice">
+                            <h3>Site Maintenance</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam perferendis asperiores,
+                                modi voluptas voluptatibus.</p>
                         </div>
-                        <div class="user-info">
-                            <p class="user-tag">@tegan</p>
-                            <p class="project-name">World Peace Builder</p>
+                        <div class="notice">
+                            <h3>Site Maintenance</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam perferendis asperiores,
+                                modi voluptas voluptatibus.</p>
                         </div>
-                    </div>
-                    <div class="user">
-                        <div class="user-pic">
-                            <img src="images/profile-pic/penguin.jpg" alt="Profile photo">
-                        </div>
-                        <div class="user-info">
-                            <p class="user-tag">@umorgan</p>
-                            <p class="project-name">Super Cool Project</p>
-                        </div>
-                    </div>
-                    <div class="user">
-                        <div class="user-pic">
-                            <img src="images/profile-pic/snail.jpg" alt="Profile photo">
-                        </div>
-                        <div class="user-info">
-                            <p class="user-tag">@kendall</p>
-                            <p class="project-name">Life Changing App</p>
-                        </div>
-                    </div>
-                    <div class="user">
-                        <div class="user-pic">
-                            <img src="images/profile-pic/spider.jpg" alt="Profile photo">
-                        </div>
-                        <div class="user-info">
-                            <p class="user-tag">@alex</p>
-                            <p class="project-name">No traffic Maker</p>
+                        <div class="notice">
+                            <h3>Site Maintenance</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam perferendis asperiores,
+                                modi voluptas voluptatibus.</p>
                         </div>
                     </div>
                 </div>
-            </aside>
+                <div class="trending">
+                    <h2 class="trending-title">Trending</h2>
+                    <div class="trending-users">
+                        <div class="user">
+                            <div class="user-pic">
+                                <img src="images/profile-pic/koala.jpg" alt="Profile photo">
+                            </div>
+                            <div class="user-info">
+                                <p class="user-tag">@tegan</p>
+                                <p class="project-name">World Peace Builder</p>
+                            </div>
+                        </div>
+                        <div class="user">
+                            <div class="user-pic">
+                                <img src="images/profile-pic/penguin.jpg" alt="Profile photo">
+                            </div>
+                            <div class="user-info">
+                                <p class="user-tag">@umorgan</p>
+                                <p class="project-name">Super Cool Project</p>
+                            </div>
+                        </div>
+                        <div class="user">
+                            <div class="user-pic">
+                                <img src="images/profile-pic/snail.jpg" alt="Profile photo">
+                            </div>
+                            <div class="user-info">
+                                <p class="user-tag">@kendall</p>
+                                <p class="project-name">Life Changing App</p>
+                            </div>
+                        </div>
+                        <div class="user">
+                            <div class="user-pic">
+                                <img src="images/profile-pic/spider.jpg" alt="Profile photo">
+                            </div>
+                            <div class="user-info">
+                                <p class="user-tag">@alex</p>
+                                <p class="project-name">No traffic Maker</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
     </div>
 </body>
+
 </html>
