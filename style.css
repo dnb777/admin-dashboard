@@ -171,7 +171,6 @@ button[type="button"] {
     background-color: var(--main-bg);
     display: grid;
     grid-template-columns: 4fr 1fr;
-    gap: 80px;
     padding: 30px 50px;
 }
 
@@ -179,6 +178,7 @@ button[type="button"] {
     grid-area: 1 / 1 / 3 / 2;
     display: grid;
     grid-template-rows: 30px 1fr;
+    margin-right: 70px;
 }
 
 .card-container {
@@ -214,4 +214,46 @@ button[type="button"] {
 }
 .card-icons {
     justify-self: end;
+}
+
+/* ANNOUNCEMENTS & TRENDING */
+.notices,
+.trending-users {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.announcements {
+    & h3 {
+        font-size: 1.6rem;
+    }
+    & p {
+        font-size: 1.4rem;
+        color: #525252;
+    }
+}
+
+.notice {
+    padding: 5px;
+    border-bottom: 1px solid #000;
+}
+.notice:last-child {
+    border: none;
+}
+
+.user {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 10px;
+    padding: 5px;
+}
+.user img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.project-name {
+    color: #525252;
 }
